@@ -1,0 +1,17 @@
+{
+  "name": "douyin-bot",
+  "version": "1.0.0",
+  "description": "抖音机器人",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "imagemagick": "^0.1.3",
+    "qs": "^6.5.2"
+  }
+}
