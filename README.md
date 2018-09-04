@@ -19,3 +19,7 @@
 3. 安装依赖： `npm i`
 4. 安装 [imagemagick](http://www.imagemagick.org/script/index.php)
 5. 运行程序：`npm start`
+
+## LICENSE
+
+MIT

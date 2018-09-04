@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "meiyun",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
     "imagemagick": "^0.1.3",
