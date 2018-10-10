@@ -10,11 +10,11 @@ module.exports = {
       return newObj;
     },
     formatStr (obj) {
-        $strs = [];
+        const strs = [];
         Object.keys(obj).forEach((val) => {
-            $strs.push(`${val}=${encodeURIComponent(obj[val])}`)
+            strs.push(`${val}=${encodeURIComponent(obj[val])}`)
         })
-        return $strs.join('&');
+        return strs.join('&');
     },
     getReqSign (str, appkey) {
         str += `&app_key=${appkey}`
